@@ -1,0 +1,1654 @@
+{
+  "intents": [
+    {
+      "intent": "Customer_Care_User_Profile",
+      "examples": [
+        {
+          "text": "Can I set another email address for my account?"
+        },
+        {
+          "text": "There is a typo in my listed email address, I need to fix it"
+        },
+        {
+          "text": "It seems like you have my old contact phone number on file, so I would like to have it updated, with your help."
+        },
+        {
+          "text": "I'm trying to change the email address associated with my account but it keeps giving me an error message can I do it with you?"
+        },
+        {
+          "text": "I would like to update the email for my online account"
+        },
+        {
+          "text": "I would like to change my contact information. can this be done online or do I have to come in?"
+        },
+        {
+          "text": "I wish to amend my email address please"
+        },
+        {
+          "text": "I will be moving next month. when do I need to give you my new address?"
+        },
+        {
+          "text": "I want to change my home address in payment associated with my account, what steps"
+        },
+        {
+          "text": "I need to update the phone number that you have listed as my contact phone number."
+        },
+        {
+          "text": "I need to update the email on my account"
+        },
+        {
+          "text": "I need to change my contact information."
+        },
+        {
+          "text": "I moved and have a new landline number. where do I go to update my contact information?"
+        },
+        {
+          "text": "I have a new email account and would like to change my primary contact email. how do I do this?"
+        },
+        {
+          "text": "I got a new number, help me edit my account"
+        },
+        {
+          "text": "Delete a number on my account"
+        },
+        {
+          "text": "Could you change the phone number in my profile?"
+        },
+        {
+          "text": "Change mailing address"
+        },
+        {
+          "text": "Can you please make changes in my account regarding my phone contact information?"
+        },
+        {
+          "text": "Can you help me change the contact email for my account?"
+        }
+      ],
+      "description": "Change user's information on their account."
+    },
+    {
+      "intent": "Customer_Care_Redeem_Points",
+      "examples": [
+        {
+          "text": "What is the process of using my credits?"
+        },
+        {
+          "text": "Apply loyalty credit"
+        },
+        {
+          "text": "Cash mileage"
+        },
+        {
+          "text": "How can I exchange my points for something?"
+        },
+        {
+          "text": "How can I use my miles?"
+        },
+        {
+          "text": "How do I earn rewards for my points balance?"
+        },
+        {
+          "text": "How do I redeem bonus points?"
+        },
+        {
+          "text": "I have outstanding credit,please apply the loyalty points"
+        },
+        {
+          "text": "I want a reward by using my points."
+        },
+        {
+          "text": "I want rewards with my points"
+        },
+        {
+          "text": "I want to pay points for an incentive"
+        },
+        {
+          "text": "I wish to go about caching in my points for a purchase,can you show me how?"
+        },
+        {
+          "text": "I would like to know how to get rewards by using my credit card loyalty"
+        },
+        {
+          "text": "May I gain rewards from the current loyalty points?"
+        },
+        {
+          "text": "Pay balance with points"
+        },
+        {
+          "text": "Redeem reward points?"
+        },
+        {
+          "text": "Shop bonus points?"
+        },
+        {
+          "text": "Use mileage"
+        },
+        {
+          "text": "Use rewards towards my bill"
+        },
+        {
+          "text": "What is the procedure for redeeming my mileage?"
+        }
+      ],
+      "description": "Redeem points to make a purchase."
+    },
+    {
+      "intent": "Customer_Care_Report_Fraudulent_Use",
+      "examples": [
+        {
+          "text": "What should I do with an unknown visitor?"
+        },
+        {
+          "text": "Who do I tell about suspect activity?"
+        },
+        {
+          "text": "Where to inform on a skeptical profile login?"
+        },
+        {
+          "text": "What should I do to report a scam? what can I do to report unauthorized log in?"
+        },
+        {
+          "text": "Want to report data breach"
+        },
+        {
+          "text": "Strange activity"
+        },
+        {
+          "text": "Someone has opened an account in my name"
+        },
+        {
+          "text": "My account is been misused. can you assist me with this"
+        },
+        {
+          "text": "Is there contact information to report unauthorized logins?"
+        },
+        {
+          "text": "Is there a way to alert you to a suspicious login?"
+        },
+        {
+          "text": "I'm worried that my savings account might have been compromised."
+        },
+        {
+          "text": "I want to make you aware of a case of fake login"
+        },
+        {
+          "text": "How would I go about telling someone of unwanted usage of my account?"
+        },
+        {
+          "text": "How to register fraud for savings or checking account?"
+        },
+        {
+          "text": "How to inform on dubious proceedings?"
+        },
+        {
+          "text": "How do I respond to texts that I do not think are true?"
+        },
+        {
+          "text": "How do I notify you that my account has been accessed without my permission?"
+        },
+        {
+          "text": "How can I tell you if there is a suspect in the record?"
+        },
+        {
+          "text": "How can I report non authorized user?"
+        },
+        {
+          "text": "Frauded login"
+        }
+      ],
+      "description": "Report the fraudulent use of an account."
+    },
+    {
+      "intent": "Customer_Care_Cancel_Account",
+      "examples": [
+        {
+          "text": "What is the procedure on canceling my account?"
+        },
+        {
+          "text": "Can you please terminate this service?"
+        },
+        {
+          "text": "Cancel account"
+        },
+        {
+          "text": "Cancel plan"
+        },
+        {
+          "text": "Cancel service please"
+        },
+        {
+          "text": "How do I cancel my phone service with your company?"
+        },
+        {
+          "text": "How do I close out my account?"
+        },
+        {
+          "text": "I am not very happy with services rendered on your part and want my account closed."
+        },
+        {
+          "text": "I need help with cancellation"
+        },
+        {
+          "text": "I need to close my account at this time."
+        },
+        {
+          "text": "I want to cancel my service"
+        },
+        {
+          "text": "I want to cancel."
+        },
+        {
+          "text": "I want to disconnect my service"
+        },
+        {
+          "text": "I would like to cancel my service, can you do that for me?"
+        },
+        {
+          "text": "Id like to cancel or stop my service from my account"
+        },
+        {
+          "text": "My phone is broken so I am wondering if I could cancel my contract"
+        },
+        {
+          "text": "Please close my data card account"
+        },
+        {
+          "text": "Put an end to my account."
+        },
+        {
+          "text": "Terminate service"
+        },
+        {
+          "text": "What do I have to do to stop all my services with you and close my account?"
+        }
+      ],
+      "description": "Cancel or close an account."
+    },
+    {
+      "intent": "Customer_Care_Open_Account",
+      "examples": [
+        {
+          "text": "Can someone new be able to login?"
+        },
+        {
+          "text": "Can you show me where to register for the program?"
+        },
+        {
+          "text": "Where to login for the first time?"
+        },
+        {
+          "text": "Could you explain how to create a fresh account?"
+        },
+        {
+          "text": "Go joining here?"
+        },
+        {
+          "text": "How can I register over here?"
+        },
+        {
+          "text": "How do I become a customer?"
+        },
+        {
+          "text": "How do I login?"
+        },
+        {
+          "text": "I'd like to register"
+        },
+        {
+          "text": "Make account"
+        },
+        {
+          "text": "Please tell me how to register as one of your members."
+        },
+        {
+          "text": "What do I need to do to start an account with your company?"
+        },
+        {
+          "text": "What is required to get signed up here?"
+        },
+        {
+          "text": "What is the log in process for new users?"
+        },
+        {
+          "text": "What is the process to making an account?"
+        },
+        {
+          "text": "Where can I register?"
+        },
+        {
+          "text": "Where do I find guidance on signing up?"
+        },
+        {
+          "text": "Where do I register for this?"
+        },
+        {
+          "text": "Where does a first time visitor sign up?"
+        },
+        {
+          "text": "Where is the sign in page?"
+        }
+      ],
+      "description": "Open an account."
+    },
+    {
+      "intent": "Customer_Care_Appointments",
+      "examples": [
+        {
+          "text": "Can I book an in person session to learn how to use my new phone at the store near my house?"
+        },
+        {
+          "text": "Can someone support me at home?"
+        },
+        {
+          "text": "Can you explain me this in my house?"
+        },
+        {
+          "text": "Could I speak to someone in the store next tuesday?"
+        },
+        {
+          "text": "Could you cancel the engagement I had tomorrow in my apartment?"
+        },
+        {
+          "text": "How can I change the schedule?"
+        },
+        {
+          "text": "I am due at a store tomorrow at 2pm and wish to change my appointment please?"
+        },
+        {
+          "text": "I need to reschedule"
+        },
+        {
+          "text": "I prefer a face to face visit"
+        },
+        {
+          "text": "I want to cancel the appointment that I have with the store"
+        },
+        {
+          "text": "I want to talk in person with someone about my case"
+        },
+        {
+          "text": "I would like to discuss my situation face to face"
+        },
+        {
+          "text": "I would like to make an appointment to visit the nearest store to my location."
+        },
+        {
+          "text": "Is it possible to set a date?"
+        },
+        {
+          "text": "Make an appointment"
+        },
+        {
+          "text": "Set up an appt"
+        },
+        {
+          "text": "Store appointment"
+        },
+        {
+          "text": "Want to change my visit"
+        },
+        {
+          "text": "What time can I meet the staff?"
+        },
+        {
+          "text": "When can I meet with one of your employees at your store?"
+        }
+      ],
+      "description": "Schedule or manage an in-store appointment."
+    },
+    {
+      "intent": "Customer_Care_Profile_Security_Questions",
+      "examples": [
+        {
+          "text": "Can I change the saved security questions I use when accessing my account via the phone?"
+        },
+        {
+          "text": "Can I reset my online security answer?"
+        },
+        {
+          "text": "Can you reset my security question?"
+        },
+        {
+          "text": "Help me with security questions"
+        },
+        {
+          "text": "Hi I want to know if I can change my security settings for talking to customer services over the phone?"
+        },
+        {
+          "text": "How can I set up a phone security question?"
+        },
+        {
+          "text": "I have a feeling that default security questions for accessing my account are too generic and weak. is there a way to have them changed?"
+        },
+        {
+          "text": "I have forgotten my phone security questions"
+        },
+        {
+          "text": "I need to change my questions to get in"
+        },
+        {
+          "text": "I want to know my security question when I'm dealing with customer service representative."
+        },
+        {
+          "text": "I would like to change the security question used to access my account. could you please explain the procedure."
+        },
+        {
+          "text": "Is it possible to change the security questions I use to access my account when I call you?"
+        },
+        {
+          "text": "It has been a while since I updated my online security questions. can you give me directions on how I can edit my account to create better, more recent and more secure questions?"
+        },
+        {
+          "text": "My email may have been hacked so I'm changing all my passwords and security questions can you change the ones I use for talking to customer support?"
+        },
+        {
+          "text": "Security question answers"
+        },
+        {
+          "text": "Security verification question"
+        },
+        {
+          "text": "Update security questions"
+        },
+        {
+          "text": "What are my profile questions?"
+        },
+        {
+          "text": "When I talk to a customer rep, what security questions can I use?"
+        },
+        {
+          "text": "Why do I need to answer security questions when I speak to a representative on the phone?"
+        }
+      ],
+      "description": "Review or change user's security questions."
+    },
+    {
+      "intent": "Customer_Care_Contact_Us",
+      "examples": [
+        {
+          "text": "What number should I call to order new line of service?"
+        },
+        {
+          "text": "How can I contact your business?"
+        },
+        {
+          "text": "Can I contact the business by post?"
+        },
+        {
+          "text": "Can I get some more information?"
+        },
+        {
+          "text": "Can I text you a question?"
+        },
+        {
+          "text": "Can you give me the number to the general manager?"
+        },
+        {
+          "text": "Can you please arrange for someone to call me!?"
+        },
+        {
+          "text": "Hi can you let me have the telephone number of my local store please?"
+        },
+        {
+          "text": "How do I best contact you when there has been a problem with my bill?"
+        },
+        {
+          "text": "I want to know number to the store closest to me"
+        },
+        {
+          "text": "I would like to speak to customer service."
+        },
+        {
+          "text": "Is there a phone number to your shop at fort worth tx?"
+        },
+        {
+          "text": "Need your phone number"
+        },
+        {
+          "text": "Tell me the number to your general department"
+        },
+        {
+          "text": "What is the closest store's phone number?"
+        },
+        {
+          "text": "What is the customer number?"
+        },
+        {
+          "text": "What is you email?"
+        },
+        {
+          "text": "Where can I reach the company personally?"
+        },
+        {
+          "text": "Which is the number of the main office here in los angeles?"
+        },
+        {
+          "text": "Who can I call?"
+        }
+      ],
+      "description": "Find basic contact information."
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "Customer_Care_Transfer_Points",
+      "examples": [
+        {
+          "text": "How can I move points from one account to another?"
+        },
+        {
+          "text": "Am I able to move points?"
+        },
+        {
+          "text": "Can I carry over my points?"
+        },
+        {
+          "text": "Can I give my points for my friend?"
+        },
+        {
+          "text": "Can I have my points transferred to a different account please?"
+        },
+        {
+          "text": "Can I transfer my minutes to my wife's phone?"
+        },
+        {
+          "text": "Can I transfer to another account my points?"
+        },
+        {
+          "text": "Can you carry my points over to other account?"
+        },
+        {
+          "text": "Can you tell me how I can place my prior account points into my new account?"
+        },
+        {
+          "text": "Could you move my points total please?"
+        },
+        {
+          "text": "How do old account points transfer to new account?"
+        },
+        {
+          "text": "How to transfer points to a new account please?"
+        },
+        {
+          "text": "I have a new account and want my points moved there"
+        },
+        {
+          "text": "I need to share points between two accounts"
+        },
+        {
+          "text": "I would like to send my credits to a relative"
+        },
+        {
+          "text": "I'd like to transfer credits to a new account"
+        },
+        {
+          "text": "Is it possible to send my credits to a buddy?"
+        },
+        {
+          "text": "Is there any way I can move points balance to a new account?"
+        },
+        {
+          "text": "Transfer mileage"
+        },
+        {
+          "text": "What can be done to to send points?"
+        }
+      ],
+      "description": "Transfer points between accounts."
+    },
+    {
+      "intent": "Customer_Care_Employment_Inquiry",
+      "examples": [
+        {
+          "text": "Are there any job vacancies currently open at your company?"
+        },
+        {
+          "text": "Are you hiring at the moment?"
+        },
+        {
+          "text": "Can I join you guys?"
+        },
+        {
+          "text": "Halp me I need work"
+        },
+        {
+          "text": "Hire me please"
+        },
+        {
+          "text": "How would I go about joining your company?"
+        },
+        {
+          "text": "I am looking for a job and would like to know if you have anything available.."
+        },
+        {
+          "text": "I need to find some work"
+        },
+        {
+          "text": "Is there any current employment opportunities?"
+        },
+        {
+          "text": "Search job"
+        },
+        {
+          "text": "Well I m asking what level of the marketing position your company is looking for"
+        },
+        {
+          "text": "What are the job openings available with the company?"
+        },
+        {
+          "text": "What are the jobs you are hiring for?"
+        },
+        {
+          "text": "What employment opportunities are currently available?"
+        },
+        {
+          "text": "What is your jobs web site?"
+        },
+        {
+          "text": "What jobs are available that are hiring for now?"
+        },
+        {
+          "text": "What kind of jobs do you have?"
+        },
+        {
+          "text": "Where is your careers page?"
+        },
+        {
+          "text": "What positions do you have available?"
+        },
+        {
+          "text": "What's the process for job application?"
+        }
+      ],
+      "description": "Find job opportunities."
+    },
+    {
+      "intent": "Customer_Care_Program_Inquiry",
+      "examples": [
+        {
+          "text": "Reward scheme?"
+        },
+        {
+          "text": "Are past purchases rewarded?"
+        },
+        {
+          "text": "Are pre-purchased items eligible for rewards?"
+        },
+        {
+          "text": "Can I get points for stuff I bought?"
+        },
+        {
+          "text": "Can I get points on transactions I've already made?"
+        },
+        {
+          "text": "Can I receive loyalty credit for previous acquisitions?"
+        },
+        {
+          "text": "Do I get anything for buying a lot?"
+        },
+        {
+          "text": "Do you have a points program?"
+        },
+        {
+          "text": "Frequent purchaser benefits?"
+        },
+        {
+          "text": "If I purchase frequently will I get benefits?"
+        },
+        {
+          "text": "Is it possible to obtain points for buys I have made in the past?"
+        },
+        {
+          "text": "Is there a bonus group offered?"
+        },
+        {
+          "text": "Is there a customer loyalty program of some sort available at the moment?"
+        },
+        {
+          "text": "Is there a program that rewards me for my use?"
+        },
+        {
+          "text": "Is there a rewards system for customers?"
+        },
+        {
+          "text": "Loyalty rewards program?"
+        },
+        {
+          "text": "Receive credits buys?"
+        },
+        {
+          "text": "Reward points backdated?"
+        },
+        {
+          "text": "Rewards frequent purchasing?"
+        },
+        {
+          "text": "What about your loyalty program?"
+        }
+      ],
+      "description": "Learn about customer loyalty programs."
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "Can you help me find locations in the general area of downtown baltimore?"
+        },
+        {
+          "text": "Can you tell me about physical locations you have in new jersey?"
+        },
+        {
+          "text": "Do you have an office in denver?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "Is there any shopping mall around me?"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "Restuarants nearby please"
+        },
+        {
+          "text": "Show me nearest service center"
+        },
+        {
+          "text": "What is the closest pharmacy?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "Where are the store locations closest to davis city hall?"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where is your office?"
+        },
+        {
+          "text": "Where is?"
+        }
+      ],
+      "description": "Locate a physical store location or an address."
+    },
+    {
+      "intent": "Customer_Care_Authorized_User",
+      "examples": [
+        {
+          "text": "Add new user please"
+        },
+        {
+          "text": "Is it possible to add a user that is allowed to do change everything but cannot anything on the financial part?"
+        },
+        {
+          "text": "I'd like to add a person to my billing account"
+        },
+        {
+          "text": "I would like to add someone to my account who will be authorized to access the account and make changes."
+        },
+        {
+          "text": "I would like to add my wife to my account with access and management privileges"
+        },
+        {
+          "text": "I would like to add my son to my account. I want him to be able to access the account and to make any changes he needs. can you help me with this?"
+        },
+        {
+          "text": "I would like to add an authorized user to my account."
+        },
+        {
+          "text": "I want to authorize my spouse to be able to make changes in my account, but not correlated with any financial or ownership responsibilities."
+        },
+        {
+          "text": "I want to add someone who can access my account."
+        },
+        {
+          "text": "I want to add my wife to the account"
+        },
+        {
+          "text": "I want to add my roommate to my plan, but keep sending the bill to me. can I do that here?"
+        },
+        {
+          "text": "I want to add a secondary user to my account"
+        },
+        {
+          "text": "I want to add a new user who can make changes to and use the account, while I retain sole ownership?"
+        },
+        {
+          "text": "I need to add someone to my account settings."
+        },
+        {
+          "text": "Hi, how can I add a user so he can have all the access to my account?"
+        },
+        {
+          "text": "Can you help me add another user to this account?"
+        },
+        {
+          "text": "Can I add another user?"
+        },
+        {
+          "text": "Can I add another person to have authority over my account?"
+        },
+        {
+          "text": "Add user"
+        },
+        {
+          "text": "Please update my account to allow my spouse to access the account?"
+        }
+      ],
+      "description": "Change who has access to an account."
+    },
+    {
+      "intent": "Customer_Care_Profile_Password",
+      "examples": [
+        {
+          "text": "How do I find out the pin I need to use speak to someone on the phone?"
+        },
+        {
+          "text": "How do I get a new 4-digit code?"
+        },
+        {
+          "text": "How to renew pin of credit card?"
+        },
+        {
+          "text": "I don't remember my debit card pin. how do I recover it?"
+        },
+        {
+          "text": "I forgot my password"
+        },
+        {
+          "text": "I have a pw issue"
+        },
+        {
+          "text": "I have had the same pin used to contact telephone customer support for a long time and would like to change it. could you please help me to set this up."
+        },
+        {
+          "text": "I need to talk to customer service, but I've lost my password. can you help me?"
+        },
+        {
+          "text": "I want to create new code for my credit card"
+        },
+        {
+          "text": "Locate pin"
+        },
+        {
+          "text": "My password has stopped working"
+        },
+        {
+          "text": "Reset password"
+        },
+        {
+          "text": "Tell me the steps to change the pin on my credit card"
+        },
+        {
+          "text": "Wanna change pass"
+        },
+        {
+          "text": "What are the rules for a valid password?"
+        },
+        {
+          "text": "What is the pin that is used to speak to a representative?"
+        },
+        {
+          "text": "What is the policy for revising my current pin number?"
+        },
+        {
+          "text": "What password do I use when chatting with an agent?"
+        },
+        {
+          "text": "Can you assist me with card code change?"
+        },
+        {
+          "text": "Where can I find information about changing my card pin?"
+        }
+      ],
+      "description": "Retrieve or change user's password."
+    },
+    {
+      "intent": "Customer_Care_Notification_Preferences",
+      "examples": [
+        {
+          "text": "Can you help me with changing delivery method?"
+        },
+        {
+          "text": "Tell me process to change alerts method"
+        },
+        {
+          "text": "Notifications are to be received on sms"
+        },
+        {
+          "text": "I want to stop getting emails every time my card gets swiped"
+        },
+        {
+          "text": "I want my bank messages to notify me on emails as well"
+        },
+        {
+          "text": "I request to get alerts via email"
+        },
+        {
+          "text": "I need to change my current alert method to something else"
+        },
+        {
+          "text": "How to switch over from sms to email delivery alert?"
+        },
+        {
+          "text": "How to customize notifications that I am receiving?"
+        },
+        {
+          "text": "Can I use another way of receiving alerts by editing existing one?"
+        },
+        {
+          "text": "How to change my notification preferences?"
+        },
+        {
+          "text": "How do I change credit card transaction alerts?"
+        },
+        {
+          "text": "How can I update my delivery methods?"
+        },
+        {
+          "text": "How can I modify notification alerts?"
+        },
+        {
+          "text": "How can I edit delivery methods to new one?"
+        },
+        {
+          "text": "How can I change delivery method?"
+        },
+        {
+          "text": "Changing my notification preferences"
+        },
+        {
+          "text": "Change notifications to sms"
+        },
+        {
+          "text": "Can you send text notifications to additional mobile number?"
+        },
+        {
+          "text": "Can you send alert on my whatsapp?"
+        }
+      ],
+      "description": "Manage user's notifications."
+    },
+    {
+      "intent": "Customer_Care_Products_Offered",
+      "examples": [
+        {
+          "text": "Catalogue look"
+        },
+        {
+          "text": "I need information on one of your products"
+        },
+        {
+          "text": "I would like to know what I can buy"
+        },
+        {
+          "text": "Items available?"
+        },
+        {
+          "text": "Items currently sold"
+        },
+        {
+          "text": "Need to know what products you have"
+        },
+        {
+          "text": "New products"
+        },
+        {
+          "text": "Show me retirement products"
+        },
+        {
+          "text": "Show me some cars"
+        },
+        {
+          "text": "Tell me about shoes"
+        },
+        {
+          "text": "What are your business banking products?"
+        },
+        {
+          "text": "What does your business sell?"
+        },
+        {
+          "text": "What does your shop provide?"
+        },
+        {
+          "text": "What kind of products are available?"
+        },
+        {
+          "text": "What kinds of products do you sell?"
+        },
+        {
+          "text": "What potential products or services are available?"
+        },
+        {
+          "text": "What product do you recommend for a tech consultant?"
+        },
+        {
+          "text": "What products are offered in the company?"
+        },
+        {
+          "text": "What products can I get from your company?"
+        },
+        {
+          "text": "What products do you offer in the company?"
+        }
+      ],
+      "description": "Find products that are available for purchase."
+    },
+    {
+      "intent": "Customer_Care_Loyalty_Status",
+      "examples": [
+        {
+          "text": "You can show to me my points?"
+        },
+        {
+          "text": "What is my reward tier right now?"
+        },
+        {
+          "text": "What is the new point total?"
+        },
+        {
+          "text": "Can you tell me the status of my reward?"
+        },
+        {
+          "text": "Check rewards"
+        },
+        {
+          "text": "Customer loyalty status"
+        },
+        {
+          "text": "How can I see the points on my account?"
+        },
+        {
+          "text": "How do I verify my rewards balance?"
+        },
+        {
+          "text": "How many loyalty bonus points do I have?"
+        },
+        {
+          "text": "How many miles do I have?"
+        },
+        {
+          "text": "Please display my loyalty credits."
+        },
+        {
+          "text": "Please inform me of my current status?"
+        },
+        {
+          "text": "Points balance?"
+        },
+        {
+          "text": "Points statement?"
+        },
+        {
+          "text": "See available rewards?"
+        },
+        {
+          "text": "View my reward status."
+        },
+        {
+          "text": "What is my frequent buyer credit accumulation?"
+        },
+        {
+          "text": "What's the number of mileage that I have on my account?"
+        },
+        {
+          "text": "Where do I learn my frequent purchaser tier?"
+        },
+        {
+          "text": "Where is my points shown at?"
+        }
+      ],
+      "description": "Inquire about customer loyalty program status."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "store_location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Elm",
+          "synonyms": [
+            "elm drive",
+            "elm dr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maple",
+          "synonyms": [
+            "maple street",
+            "maple st"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What time of day works best?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1589996442215",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1589996442243",
+      "previous_sibling": "handler_3_1589996442242"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1589996442215",
+      "context": {
+        "time": "<? @sys-time.reformatDateTime(\"h:mm a\") ?>"
+      },
+      "conditions": "@sys-time.reformatDateTime(\"h:mm a\")",
+      "event_name": "input",
+      "dialog_node": "handler_3_1589996442242"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1590110296979",
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1590110327494",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Alternate channel recommendation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry I'm not able to understand your question."
+              },
+              {
+                "text": "Please try our phone support at 1-800-555-5555."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1590110296979",
+      "conditions": "$misunderstood_count >= 2",
+      "dialog_node": "node_4_1590110327494"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That store is located at 123 Maple St."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589937009382",
+      "conditions": "@store_location:maple",
+      "dialog_node": "node_3_1589938338613",
+      "previous_sibling": "node_5_1589938374510"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have two locations near you: 123 Maple St and 456 Elm Drive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589937009382",
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1589938326768",
+      "previous_sibling": "node_3_1589938338613"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That store is located at 456 Elm Drive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589937009382",
+      "conditions": "@store_location:elm",
+      "dialog_node": "node_5_1589938374510"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What day would you like to come in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1589996279807",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1589996279836",
+      "previous_sibling": "handler_7_1589996279836"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1589996279807",
+      "context": {
+        "date": "<? @sys-date.reformatDateTime(\"MM/dd/yyyy\") ?>"
+      },
+      "conditions": "@sys-date.reformatDateTime(\"MM/dd/yyyy\")",
+      "event_name": "input",
+      "dialog_node": "handler_7_1589996279836"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All of our local stores are open from 9am to 9pm."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1589936958748",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1589939249491",
+      "previous_sibling": "response_3_1589939319282"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Visit our Maple Steet store between 9am and 9pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1589936958748",
+      "conditions": "@store_location:maple",
+      "dialog_node": "response_3_1589939319282",
+      "previous_sibling": "response_5_1589939261312"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our Elm Drive store is open between 9am and 9pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1589936958748",
+      "conditions": "@store_location:elm",
+      "dialog_node": "response_5_1589939261312"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1589995353235",
+      "variable": "$time",
+      "dialog_node": "slot_2_1589996442215",
+      "previous_sibling": "slot_4_1589996279807"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1589995353235",
+      "variable": "$store_location",
+      "dialog_node": "slot_10_1589996183091",
+      "previous_sibling": "handler_1_1589996182696"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1589995353235",
+      "variable": "$date",
+      "dialog_node": "slot_4_1589996279807",
+      "previous_sibling": "slot_10_1589996183091"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'll be glad to set up an appointment!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1589995353235",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1589996182696"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Where do you want the appointment, at Maple or Elm?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1589996183091",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1589996183126",
+      "previous_sibling": "handler_1_1589996183126"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1589996183091",
+      "context": {
+        "store_location": "@store_location"
+      },
+      "conditions": "@store_location",
+      "event_name": "input",
+      "dialog_node": "handler_1_1589996183126"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We accept job applications at FictitiousInc.com/jobs. Feel free to apply today!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Customer_Care_Employment_Inquiry",
+      "dialog_node": "node_4_1589937061209",
+      "previous_sibling": "node_6_1589937009382"
+    },
+    {
+      "type": "frame",
+      "title": "Schedule Appointment Flow",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! I've set up an appointment for you at the $store_location location for $time on $date."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Customer_Care_Appointments",
+      "dialog_node": "node_10_1589995353235",
+      "previous_sibling": "node_4_1589937061209"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Customer_Care_Store_Location",
+      "dialog_node": "node_6_1589937009382",
+      "previous_sibling": "node_8_1589936958748"
+    },
+    {
+      "type": "standard",
+      "title": "Low Confidence Prediction",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1590110296979"
+      },
+      "conditions": "intents.size() > 0 && intents.get(0).confidence < 0.5",
+      "dialog_node": "node_8_1590110959434",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Customer_Care_Store_Hours",
+      "dialog_node": "node_8_1589936958748",
+      "previous_sibling": "node_8_1590110959434"
+    },
+    {
+      "type": "standard",
+      "title": "Misunderstanding",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "misunderstood_count": "<? $misunderstood_count + 1 ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1590110296979",
+      "previous_sibling": "node_10_1589995353235"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "misunderstood_count": 0
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Customer Service Skill",
+  "language": "en",
+  "description": "Answer most common customer service questions"
+}
