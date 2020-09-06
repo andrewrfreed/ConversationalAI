@@ -1,0 +1,18 @@
+Reset my password,reset_password
+Where are you located,store_location
+Are you downtown,store_location
+Are you near the mall,store_location
+I can't log in,reset_password
+Are you open on Thanksgiving,store_hours
+How late are you open today,store_hours
+I forgot my password,reset_password
+Give me your hours please,store_hours
+Where is my nearest store,store_location
+How do I find you,store_location
+I have a pw issue,reset_password
+When does the store open,store_hours
+I need a map to your location,store_location
+Stuck at the home screen,reset_password
+Can't remember my login info,reset_password
+What time do you close,store_hours
+What are your hours,store_hours
