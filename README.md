@@ -8,5 +8,6 @@ The following chapters from [Creating Virtual Assistants](https://www.manning.co
 * Chapter 1: Introduction to Virtual Assistants
 * Chapter 2: Building Your First Virtual Assistant
 * Chapter 3: Designing Effective Processes
+* Chapter 4: Designing Effective Dialog
 
 This repository includes code samples from the book.  I will update this repository with more information about the book as it becomes available.
