@@ -1199,6 +1199,7 @@
                     "type": "synonyms",
                     "value": "Elm",
                     "synonyms": [
+                        "elm",
                         "elm dr",
                         "elm drive"
                     ]
@@ -1207,6 +1208,7 @@
                     "type": "synonyms",
                     "value": "Maple",
                     "synonyms": [
+                        "maple",
                         "maple st",
                         "maple street"
                     ]
@@ -1222,6 +1224,19 @@
         {
             "entity": "sys-time",
             "values": [],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "userID",
+            "values": [
+                {
+                    "type": "patterns",
+                    "value": "username",
+                    "patterns": [
+                        "\\b([A-Za-z]{4,12}[0-9]{1,3})"
+                    ]
+                }
+            ],
             "fuzzy_match": true
         }
     ],
@@ -1415,6 +1430,11 @@
                     }
                 ]
             },
+            "metadata": {
+                "_customization": {
+                    "mcr": false
+                }
+            },
             "conditions": "#Customer_Care_Employment_Inquiry",
             "dialog_node": "node_4_1589937061209",
             "previous_sibling": "node_6_1589937009382"
@@ -1459,6 +1479,9 @@
                 ]
             },
             "parent": "node_6_1590110296979",
+            "context": {
+                "context_connect_to_agent": true
+            },
             "conditions": "$misunderstood_count >= 2",
             "dialog_node": "node_4_1590110327494"
         },
@@ -1507,6 +1530,49 @@
             },
             "conditions": "anything_else",
             "dialog_node": "node_6_1590110296979",
+            "previous_sibling": "node_7_1612206784570"
+        },
+        {
+            "type": "standard",
+            "title": "Execute password reset on matched security question",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "I reset your password."
+                            },
+                            {
+                                "text": "Can I help you with anything else?"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "multiline"
+                    }
+                ]
+            },
+            "parent": "node_9_1612210667887",
+            "conditions": "true",
+            "dialog_node": "node_6_1612210721062"
+        },
+        {
+            "type": "standard",
+            "title": "Reset password start - Ask User ID",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "I can help reset your password.  What's your User ID?"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "conditions": "#Customer_Care_Profile_Password",
+            "dialog_node": "node_7_1612206784570",
             "previous_sibling": "node_10_1589995353235"
         },
         {
@@ -1535,6 +1601,46 @@
             "conditions": "intents.size() > 0 && intents.get(0).confidence < 0.5",
             "dialog_node": "node_8_1590110959434",
             "previous_sibling": "Welcome"
+        },
+        {
+            "type": "standard",
+            "title": "Ask DOB",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "I found your user ID.  What's your date of birth?"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "parent": "node_7_1612206784570",
+            "conditions": "@userID",
+            "dialog_node": "node_8_1612207043232"
+        },
+        {
+            "type": "standard",
+            "title": "Ask Security Question",
+            "output": {
+                "generic": [
+                    {
+                        "values": [
+                            {
+                                "text": "What's your favorite book?"
+                            }
+                        ],
+                        "response_type": "text",
+                        "selection_policy": "sequential"
+                    }
+                ]
+            },
+            "parent": "node_8_1612207043232",
+            "conditions": "@sys-date",
+            "dialog_node": "node_9_1612210667887"
         },
         {
             "type": "response_condition",
@@ -1631,7 +1737,7 @@
             "dialog_node": "Welcome"
         }
     ],
-    "workspace_id": "5c0d227f-d586-4b81-a95c-1fb21f13d7d7",
+    "workspace_id": "c81cde4c-9c13-4615-b130-4ec1de43f81b",
     "counterexamples": [],
     "system_settings": {
         "off_topic": {
@@ -1643,7 +1749,7 @@
             "randomize": true,
             "max_suggestions": 5,
             "suggestion_text_policy": "title",
-            "none_of_the_above_prompt": "None of the above"
+            "none_of_the_above_prompt": "None of the above."
         },
         "system_entities": {
             "enabled": true
