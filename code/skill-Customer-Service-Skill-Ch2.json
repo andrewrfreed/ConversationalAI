@@ -1396,7 +1396,7 @@
                 ]
             },
             "parent": "node_6_1589937009382",
-            "conditions": "@store_location:maple",
+            "conditions": "@store_location:Maple",
             "dialog_node": "node_3_1589938338613",
             "previous_sibling": "node_5_1589938374510"
         },
@@ -1478,7 +1478,7 @@
                 ]
             },
             "parent": "node_6_1589937009382",
-            "conditions": "@store_location:elm",
+            "conditions": "@store_location:Elm",
             "dialog_node": "node_5_1589938374510"
         },
         {
@@ -1511,6 +1511,7 @@
         },
         {
             "type": "standard",
+            "title": "Store Hours",
             "metadata": {
                 "_customization": {
                     "mcr": true
@@ -1546,7 +1547,7 @@
                 }
             },
             "parent": "node_8_1589936958748",
-            "conditions": "@store_location:maple",
+            "conditions": "@store_location:Maple",
             "dialog_node": "response_3_1589939319282",
             "previous_sibling": "response_5_1589939261312"
         },
@@ -1561,7 +1562,7 @@
                 }
             },
             "parent": "node_8_1589936958748",
-            "conditions": "@store_location:elm",
+            "conditions": "@store_location:Elm",
             "dialog_node": "response_5_1589939261312"
         },
         {
@@ -1630,7 +1631,7 @@
             "dialog_node": "Welcome"
         }
     ],
-    "workspace_id": "7411b318-b762-44cd-842d-425384a188a5",
+    "workspace_id": "5c0d227f-d586-4b81-a95c-1fb21f13d7d7",
     "counterexamples": [],
     "system_settings": {
         "off_topic": {
