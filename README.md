@@ -10,5 +10,9 @@ The following chapters from [Creating Virtual Assistants](https://www.manning.co
 * Chapter 3: Designing Effective Processes
 * Chapter 4: Designing Effective Dialog
 * Chapter 5: Building a Successful Assistant
+* Chapter 6: How to Train Your Assistant
+* Chapter 7: How Accurate is Your Assistant?
+* Chapter 8: How to Test Your Dialog Flows
+* Chapter 9: How to Deploy and Manage
 
 This repository includes code samples from the book.  I will update this repository with more information about the book as it becomes available.
