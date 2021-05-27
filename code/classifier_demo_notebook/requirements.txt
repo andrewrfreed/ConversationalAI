@@ -1,3 +1,4 @@
+# These exact versions were tested and proved to work with each other.  Different versions may not be compatible.
 scikit-learn==0.23.2
 eli5==0.10.1
 pandas==1.0.5
