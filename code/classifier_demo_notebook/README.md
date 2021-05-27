@@ -1,6 +1,11 @@
 # Setup and Troubleshooting
 The notebook was built and tested with the version of Jupyter built into my Python 3.7.4 installation.  It should work on other environments but may require a tweak for JupyterLab (see below)
 
+## Code dependencies
+The `requirements.txt` file lists the **exact** library versions I tested the notebook on with `==`.  In theory you should be able to use more recent versions of the dependent libraries.  I am reluctant to use the `>=` operator on the dependency versions due to personal experiences fragile backwards compatibility in some Python libraries I have used.
+
+Using different versions is **not guaranteed to work**.  Several of the dependent libraries make breaking API changes in minor releases.  If you already have a version of `pandas` or `scikit-learn` installed you may prefer to setup a separate [Python virtual environment](https://docs.python.org/3/tutorial/venv.html)
+
 ## Base environment
 ```
 $ jupyter --version
@@ -30,6 +35,3 @@ IPython.OutputArea.prototype._should_scroll = function(lines) {
     return false;
 }
 ```
-
-## Code dependencies
-The `requirements.txt` file lists the exact library versions I tested the notebook on with `==`.  In theory you should be able to use more recent versions of the dependent libraries.  I am reluctant to use the `>=` operator on the dependency versions due to personal experiences fragile backwards compatibility in some Python libraries I have used.
