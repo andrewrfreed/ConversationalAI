@@ -14,5 +14,8 @@ The following chapters from [Creating Virtual Assistants](https://www.manning.co
 * Chapter 7: How Accurate is Your Assistant?
 * Chapter 8: How to Test Your Dialog Flows
 * Chapter 9: How to Deploy and Manage
+* Chapter 10: How to Improve Your Assistant
+* Chapter 11: How to Build Your Own Classifier
+* Chapter 12: Training for Voice
 
 This repository includes code samples from the book.  I will update this repository with more information about the book as it becomes available.
