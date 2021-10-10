@@ -1,10 +1,8 @@
 # Conversational AI
 
-[Conversational AI](https://www.manning.com/books/creating-virtual-assistants?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) is a book I am writing with [Manning Publications](https://www.manning.com/).  We expect to publish the book in late 2021.  
+[Conversational AI](https://www.manning.com/books/conversational-ai?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) is a book I have written with [Manning Publications](https://www.manning.com/) and published in Fall 2021.  Click on the book title to get your copy!
 
-[Conversational AI](https://www.manning.com/books/creating-virtual-assistants?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) is available now through Manning's Early Access Program.  Click on the book title to get a sneak peek!
-
-The following chapters from [Conversational AI](https://www.manning.com/books/creating-virtual-assistants?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) are available now:
+The following chapters from [Conversational AI](https://www.manning.com/books/conversational-ai?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) are available now:
 * Chapter 1: Introduction to Virtual Assistants
 * Chapter 2: Building Your First Virtual Assistant
 * Chapter 3: Designing Effective Processes
@@ -18,4 +16,4 @@ The following chapters from [Conversational AI](https://www.manning.com/books/cr
 * Chapter 11: How to Build Your Own Classifier
 * Chapter 12: Training for Voice
 
-This repository includes code samples from the book.  I will update this repository with more information about the book as it becomes available.
+This repository includes code samples from the book.  Use the LiveBook forum at Manning to submit comments and questions.
