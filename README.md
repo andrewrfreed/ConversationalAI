@@ -2,7 +2,7 @@
 
 [Conversational AI](https://www.manning.com/books/conversational-ai?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) is a book I have written with [Manning Publications](https://www.manning.com/) and published in Fall 2021.  Click on the book title to get your copy!
 
-The following chapters from [Conversational AI](https://www.manning.com/books/conversational-ai?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) are available now:
+[Conversational AI](https://www.manning.com/books/conversational-ai?utm_source=andrewrfreed&utm_medium=affiliate&utm_campaign=book_freed_creating_12_27_20&a_aid=andrewrfreed&a_bid=cc3c6977) includes the following table of contents:
 * Chapter 1: Introduction to Virtual Assistants
 * Chapter 2: Building Your First Virtual Assistant
 * Chapter 3: Designing Effective Processes
